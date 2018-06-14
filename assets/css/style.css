@@ -12,8 +12,14 @@ li {
     display: inline;
 }
 
+li a:hover {
+    background-color: #4eaaa4
+}
+
 .rightNavBar {
     float: right;
+    padding: 14px 16px;
+
 }
 
 #leftNavBar {
@@ -22,24 +28,29 @@ li {
     color: white;
     font-weight: bolder;
     font-size: xx-large;
+    padding-left: 20px;
+    margin-left: -40px;
 }
 
 #about {
-    border-right: 1px solid #777777;
-    padding: 20px;
+    padding: 5px;
 }
 
 #port {
-    padding: 20px;
-    border-right: 1px solid #777777;
+    padding: 5px;
+    
 }
 
 #contact {
-    padding: 20px;
+    padding: 5px;
 }
 
 h2 {
     color: #4eaaa4;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: -5px;
 }
 
 #bottomLine {
@@ -63,37 +74,55 @@ h2 {
 #outerNav {
     background-color: white;
     width: 100%;
+    
 }
 
 .whiteNavBar {
-    height: 30%;
-    margin: 0px;
+    height: 100%;
+    margin: -8px;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
+    
+}
+
+.whiteNavBar::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+    padding: 5px;
 }
 
 #maincontent {
     background-color: white;
     font-size: large;
-    line-height: 2.0;
+    line-height: 1.5;
     width: 960px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
 }
 
 .textField {
-    width: 95%;
+    width: 90%;
     margin-top: 0px;
     margin-left: 20px;
-    margin-right: 20px;  
+    margin-right: 20px; 
+    height: 20px; 
 }
 
 #messageStyle {
-    height: 40px;
+    height: 70px;
 }
 
 .bottomMargin {
@@ -109,4 +138,26 @@ button {
     border: none;
     color: white;
     padding: 15px 32px;
+    
+}
+
+hr {
+    background-color: #dddddd;
+    width: 95%;
+}
+
+.photoText {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-3%, -30%);
+    color: white;
+    height: 60px;
+    width: 90%;
+    float: right;
+    background-color: #4eaaa4;
+    margin-top: -85px;
+    margin-left: -90px;
+    font-style: normal;
+    
 }
