@@ -1,0 +1,112 @@
+body{
+    color: #777777;
+}
+
+img {
+    float: left;
+    margin: 30px;
+}
+
+
+li {
+    display: inline;
+}
+
+.rightNavBar {
+    float: right;
+}
+
+#leftNavBar {
+    padding: 20px;
+    background-color: #4eaaa4;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#about {
+    border-right: 1px solid #777777;
+    padding: 20px;
+}
+
+#port {
+    padding: 20px;
+    border-right: 1px solid #777777;
+}
+
+#contact {
+    padding: 20px;
+}
+
+h2 {
+    color: #4eaaa4;
+}
+
+#bottomLine {
+    padding: 5px;
+    margin-bottom: 0%;
+    background-color: #4eaaa4;
+    width: 100%;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #666666;
+    width: 100%;
+    color: white;
+}
+
+#outerNav {
+    background-color: white;
+    width: 100%;
+}
+
+.whiteNavBar {
+    height: 30%;
+    margin: 0px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#maincontent {
+    background-color: white;
+    font-size: large;
+    line-height: 2.0;
+    width: 960px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    
+}
+
+.textField {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+#messageStyle {
+    height: 40px;
+}
+
+.bottomMargin {
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+button {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #4eaaa4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+}
